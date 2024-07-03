@@ -99,38 +99,12 @@
 
 
 //  7 misol
-// let sampleObject = {
-//     a: 5,
-//     b: 10,
-//     c: 15,
-//     d: 20,
-//     e: 25,
-//     f: 30
-//   };
-  
-//   function getObjectValues(obj) {
-//     let values = [];
-//     for (let key in obj) {
-//       if (obj.hasOwnProperty(key)) {
-//         values.push(obj[key]);
-//       }
+// let arr = [1,2,4,,3,4,3,34,2,54,5,6]
+// for(let i = 0; i < arr.length; i++){
+//     if(arr[i] === 4){
+//         arr.splice(i,1)
+//         i--
 //     }
-//     return values;
-//   }
-  
-//   function sumObjectValues(obj) {
-//     let sum = 0;
-//     for (let key in obj) {
-//       if (obj.hasOwnProperty(key)) {
-//         sum += obj[key];
-//       }
-//     }
-//     return sum;
-//   }
-  
-//   let valuesList = getObjectValues(sampleObject);
-//   console.log("Qiymatlar ro'yxati:", valuesList); // [5, 10, 15, 20, 25, 30]
-  
-//   let valuesSum = sumObjectValues(sampleObject);
-//   console.log("Qiymatlar yig'indisi:", valuesSum); // 105
-  
+// }
+
+// console.log(arr)
